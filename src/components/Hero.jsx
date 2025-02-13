@@ -7,7 +7,7 @@ function Hero() {
   const translations = useTranslations();
   return (
     <div className="bg-[#4731D3]">
-      <div className="flex flex-row justify-between gap-16 m-0 pl-10 h-[400px]">
+      <div className="flex flex-row justify-between gap-16 m-0 pl-10 h-[450px]">
         {/* Sol Taraf (Yazılar) */}
         <div className="flex flex-col items-start justify-center pl-36 gap-8 w-2/3">
           <h3 className="text-2xl text-[#CBF281] pl-10">Gülsüm</h3>
@@ -28,7 +28,7 @@ function Hero() {
           <img
             src="./img/profile.jpeg"
             alt="profile"
-            className="w-60 h-60 rounded-xl shadow-lg mt-15 mr-17"
+            className="w-60 h-60 rounded-xl shadow-lg mt-20 mr-17"
           />
           <LanguageSwitcher />
         </div>

@@ -8,7 +8,7 @@ function Profile() {
       <h1 className="text-4xl mt-10 pl-40 font-medium text-[#CBF281]">
         Profile
       </h1>
-      <div className="flex flex-row items-center justify-around px-20">
+      <div className="flex flex-row items-center justify-around">
         <div className="flex flex-col justify-center w-full pl-20 gap-4">
           <h6 className="text-white text-3xl">{translations.title2}</h6>
           <div className="flex flex-col gap-4">
@@ -32,7 +32,7 @@ function Profile() {
           </div>
         </div>
         <img src="./img/portfolio.png" alt="portfolio" />
-        <div className="flex flex-col text-white justify-center gap-4">
+        <div className="flex flex-col text-white justify-center gap-4 pr-10">
           <h4 className="text-2xl font-medium">{translations.aboutMe}</h4>
           <p className="font-thin">{translations.aboutDesc}</p>
         </div>

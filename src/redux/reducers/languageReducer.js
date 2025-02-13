@@ -38,7 +38,7 @@ const initialState = {
       city: "Bursa",
       educationStatus: "Education Status",
       education:
-        "Bursa Uludağ Unv. Management Information Systems undergraduate, 2022",
+        "Management Information Systems Bachelor's Bursa Uludağ University, 2022",
       prefferedRole: "Preferred Role",
       role: "Frontend",
       projectTitle: "E-commerce",
