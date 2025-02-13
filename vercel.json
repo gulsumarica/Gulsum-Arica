@@ -8,8 +8,5 @@
         "distDir": "Gulsum-arica/dist"
       }
     }
-  ],
-  "scripts": {
-    "build": "vite build"
-  }
+  ]
 }
