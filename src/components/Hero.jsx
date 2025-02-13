@@ -28,7 +28,7 @@ function Hero() {
           <img
             src="./img/profile.jpeg"
             alt="profile"
-            className="w-60 h-60 rounded-xl shadow-lg mt-15"
+            className="w-60 h-60 rounded-xl shadow-lg mt-15 mr-17"
           />
           <LanguageSwitcher />
         </div>
