@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Gulsum-arica/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "Gulsum-arica/dist"
+      }
+    }
+  ],
+  "scripts": {
+    "build": "vite build"
+  }
+}
